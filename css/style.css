@@ -1,7 +1,4 @@
 
-/* import fonts from fonts.css file */ 
-@import url(./fonts.css);
-
 
 /* css variables */ 
 @import url(./partials/_variables.css);
@@ -9,6 +6,32 @@
 /* import global styling */ 
 @import url(./partials/_global.css);
 
+body {
+    margin: 0;
+}
+
+/* Go to top button */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 18px;
+    right: 25px;
+    z-index: 99;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background-color: #1dc8cd;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+/* End of Go to top button */  
 
 /* start navigation */ 
 
@@ -210,7 +233,7 @@
 
 /* Project Area */ 
 
-.site-main .project-area{
+.site-main .project-area .section-title{
     padding: 4rem 0;
 }
 
@@ -225,6 +248,15 @@
     padding-left: 3rem;
 }
 
+.button-group .active{
+    color: rgb(89, 79, 228);
+}
+
+.button-group button:hover{
+    color:rgb(231, 68, 163)
+}
+
+
 .site-main .project-area .grid .our-project > .title h4{
     font: normal 700 25px/12px var(--Balsamiq);
 }
@@ -237,7 +269,94 @@
 /* End Project Area */ 
 
 
-/* About Me */ 
+/* Blog Area */
+.site-main #blog{
+    padding: 4rem 0;
+}
+
+.single-blog .blog-image a {
+    display: block; }
+    .single-blog .blog-image a img {
+      width: 300px; }
+  .single-blog .blog-content {
+    padding-top: 10px; }
+    .single-blog .blog-content .blog-title a {
+     font-family: var(--Balsamiq);
+      font-size: 24px;
+      font-weight: 600;
+      color: #222;
+      -webkit-transition: all 0.3s ease-out 0s;
+      -moz-transition: all 0.3s ease-out 0s;
+      -ms-transition: all 0.3s ease-out 0s;
+      -o-transition: all 0.3s ease-out 0s;
+      transition: all 0.3s ease-out 0s; }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .single-blog .blog-content .blog-title a {
+          font-size: 20px; } }
+      @media (max-width: 767px) {
+        .single-blog .blog-content .blog-title a {
+          font-size: 20px; } }
+      .single-blog .blog-content .blog-title a:hover {
+        color: rgb(44, 44, 163); }
+    .single-blog .blog-content .blog-author {
+      padding-top: 1px; }
+      .single-blog .blog-content .blog-author .author-image img {
+        width: 65px;
+        border-radius: 50%; }
+      .single-blog .blog-content .blog-author .author-content {
+        padding-left: 20px; }
+        .single-blog .blog-content .blog-author .author-content .sub-title {
+          font-family: var(--Balsamiq);
+          font-size: 14px;
+          color: #053781;
+          font-weight: 400; }
+        .single-blog .blog-content .blog-author .author-content .text {
+          font-size: 16px;
+          font-weight: 600;
+          margin-top: 5px; }
+.blogbtn {
+    margin: 50px auto;
+}
+#blogbtn {
+    font-family: var(--Balsamiq);
+    font-size: 1rem;
+    color: rgb(0, 32, 119);
+    border-style: none;
+    border-radius: 5%;
+    padding: .3em .5em;
+    display: block;
+    margin: 0 auto;
+          }
+#blogbtn a {
+    color: white;
+}
+#blogbtn:hover {
+    background-color:  #4595ca;
+    color: white;
+}
+/* End of Blog Area */   
+
+/* Blog Page CSS */
+
+
+.blog-section-title{
+    padding: 1em 0;
+    text-align: center;
+    font: bold 2rem var(--Balsamiq);
+    text-transform: uppercase;
+}
+
+#advanced-features img {
+    width: 50%;
+    display:block;
+    margin: 0 auto;
+}
+
+
+/* End of Blog Page CSS */
+
+
+/* Gallery */ 
 
 .site-main .about-area .about-title p{
     padding: 1rem 7rem;
@@ -279,51 +398,13 @@
 
 
 
-/* End About Me */ 
+/* End Gallery */ 
 
-/* Subscribe me */ 
-
-.site-main .subscribe-us-area .subscribe{
-    background: url(../img/subscribe-bg.png) no-repeat;
-    padding: 10rem 0;
-    margin: 3rem auto;
-}
-
-.site-main .subscribe-us-area .subscribe .subscribe-title h4{
-    font: normal 700 30px/ 30px var(--Balsamiq);
-    color: whitesmoke;
-}
-
-.site-main .subscribe-us-area .subscribe .subscribe-title p{
-    color: whitesmoke;
-    padding: 1rem 4rem;
-}
-
-.site-main .subscribe-us-area .subscribe form .input-textbox input{
-    width: 400px;
-    padding: 1.5rem 1rem;
-    border: 1px solid whitesmoke;
-    background: transparent;
-    color: white;
-    font: normal 500 17px/20px var(--Balsamiq);
-}
-
-.site-main .subscribe-us-area .subscribe form .input-textbox input::placeholder{
-    color: whitesmoke;
-}
-
-.site-main .subscribe-us-area .subscribe form .btn-submit button{
-    background: whitesmoke;
-    color: #000;
-    padding: .7rem 2rem;
-}
-
-/* End subscribe me */ 
 
 /* Footer Area */ 
 
 footer.footer-area{
-    padding: 3.5rem 0;
+    padding: 3.5rem 0 0 0;
     background: url(../img/footer-bg.png) no-repeat; background-size: 100% auto;
 }
 

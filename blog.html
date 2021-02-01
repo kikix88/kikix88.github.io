@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog</title>
+
+
+    <!--  Bootstrap css file  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!--  font awesome icons  -->
+    <link rel="stylesheet" href="./css/all.min.css">
+
+
+    <!--  Magnific Popup css file  -->
+    <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css">
+
+
+    <!--  Owl-carousel css file  -->
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.min.css">
+
+
+    <!--  custom css file  -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--  Responsive css file  -->
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <!-- font-awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+
+
+
+<style>
+    /* Product Featuress Section
+--------------------------------*/
+#features {
+  background: #fff;
+  padding: 60px 0 0 0;
+  overflow: hidden;
+}
+
+#features .features-img {
+  text-align: center;
+  padding-top: 20px;
+}
+
+@media (min-width: 769px) {
+  #features .features-img {
+    padding-top: 120px;
+    margin-top: -200px;
+  }
+}
+
+#features .features-img img {
+  max-width: 100%;
+}
+
+#features .box {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#features .icon {
+  margin-bottom: 10px;
+}
+
+#features .icon i {
+  color: #666666;
+  font-size: 40px;
+  transition: 0.5s;
+}
+
+#features .icon i:before {
+  background: #1dc8cd;
+  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#features .title {
+  font-weight: 300;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+#features .title a {
+  color: #111;
+}
+
+#features .description {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+#features .section-description {
+  padding-bottom: 10px;
+}
+
+/* Product Advanced Featuress Section
+--------------------------------*/
+#advanced-features {
+  overflow: hidden;
+}
+
+#advanced-features .features-row {
+  padding: 60px 0 30px 0;
+}
+
+#advanced-features h2 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #000;
+}
+
+#advanced-features h3 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-style: italic;
+  color: #999;
+}
+
+#advanced-features p {
+  line-height: 24px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+#advanced-features i {
+  color: #666666;
+  font-size: 64px;
+  transition: 0.5s;
+  float: left;
+  padding: 0 15px 0px 0;
+  line-height: 1;
+}
+
+#advanced-features i:before {
+  background: #1dc8cd;
+  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#advanced-features .advanced-feature-img-right {
+  max-width: 100%;
+  float: right;
+  padding: 0 0 30px 30px;
+}
+
+#advanced-features .advanced-feature-img-left {
+  max-width: 100%;
+  float: left;
+  padding: 0 30px 30px 0;
+}
+
+@media (max-width: 768px) {
+  #advanced-features .advanced-feature-img-right, #advanced-features .advanced-feature-img-left {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  #advanced-features .advanced-feature-img-right, #advanced-features .advanced-feature-img-left {
+    max-width: 100%;
+    float: none;
+    padding: 0 0 30px 0;
+  }
+}
+
+
+
+</style>
+</head>
+
+<body>
+    <!--  ======================= Go To Top Button ============================== -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <!--  ======================= Go To Top Button ============================== -->
+
+
+    <!--  ======================= Start Header Area ============================== -->
+
+    <header class="header_area">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="Index.html"><img src="./img/logo.png" alt="logo"
+                        style="width:100px; height:auto;"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#firstsection">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#secondsection">Portfolio</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#thirdsection">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#fourthsection">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--  ======================= End Header Area ============================== -->
+
+    <!--  ======================= About Area ============================== -->
+    <section id="about" class="section-bg">
+        <div class="container-fluid">
+          <div class="section-header">
+            <h3 class="blog-section-title">Case Study</h3>
+            <span class="section-divider"></span>
+          </div>
+        </div>
+    </section>
+
+    <!--  ======================= End of About Area ============================== -->
+
+    <!-- ======= Advanced Featuress Section ======= -->
+    <section id="advanced-features">
+
+        <div class="features-row section-bg" id="firstcase">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <img class="advanced-feature-img-right wow fadeInRight" src="./img/brands/logo7.png" alt="wtc atlanta">
+                <div class="wow fadeInLeft">
+                  <h2>World Trade Center Atlanta Website Redesign</h2>
+                  <h3>As an international business community, it is about to launch new Academy page to its official website.</h3>
+                  <p>To make the WTC Atlanta website a more contemporary international business community, my project aims to design 
+                      a prototype focusing on the Home and Academy page, which provides a platform for members and partners to explore 
+                      and share business resources and learn and develop business skills. </p><br>
+                      <img class="advanced-feature-img-center wow fadeInRight" src="./img/blog/3.png" alt="wtc atlanta">
+                  <p><b>Duration:</b> 3 months</p>
+                  <p><b>Methods:</b> Card Sort, Interviews, Competative Analysis, Usability Tests, Wireframes, Prototyping</p>
+                  <p><b>Tools:</b> Adobe XD, Optimal Workshop, UserTesting</p>
+                  <p>By the end of the project, I have collected insights and feedbacks from different groups and turned all findings 
+                      into the prototype that meets WTC Atlanta's design guidelines. and got their recognition for the work.</p>
+                  <a href="https://xd.adobe.com/view/bffd2d77-6e96-49c9-8115-7e6471e660d4-eaae/">
+                    View XD Prototype</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="features-row section-bg" id="secondcase">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <img class="advanced-feature-img-left wow fadeInRight" src="./img/brands/logo9.png" alt="uboostus" style="width: 300px; height:auto;">
+                  <div class="wow fadeInLeft">
+                    <h2>UBoostUs App Design & Development</h2>
+                    <h3>A mobile coupon app for finding nearby coupons and sharing with friends via QR code to collect boost points.</h3>
+                    <p>UBoostUs is a mobile coupon app that connects users with their friends together by sharing local business coupons via 
+                        QR code and getting boost points for future redemption.<br>
+
+                        Before the sketch, I did the competitive research and user persona to define the major content and layout for this app. 
+                        I created the project on Trello for agile team collaboration. In phase II of the project, I've finished mocking up the overall prototype.</p><br>
+                        <img class="advanced-feature-img-center wow fadeInRight" src="./img/blog/2.png" alt="uboostus">
+                    <p><b>Duration:</b> 2 months</p>
+                    <p><b>Methods:</b> User Persona, Competitive Analysis, Wireframe, Prototyping</p>
+                    <p><b>Tools:</b> InVision, Sketch, Adobe Photoshop, Trello</p>
+                    <a href="https://projects.invisionapp.com/prototype/UBoostUs-ckhdijz9u00ejsg01635t58yc/play/2a88c19d">
+                      View InVision Prototype</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+  
+        <div class="features-row section-bg" id="thirdcase">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <img class="advanced-feature-img-right wow fadeInRight" src="./img/brands/logo1.png" alt="myvrends" style="width: 300px; height:auto;">
+                <div class="wow fadeInLeft">
+                  <h2>MyVrends App Design & Development</h2>
+                  <h3>A social app that aims at local college students. Users can create and share events nearby to meet friends and gather together. 
+                      With a unique QR code, you can invite your friends to scan it and install the app to get referral points</h3>
+                      <img class="advanced-feature-img-left wow fadeInRight" src="./img/blog/4.png" alt="myvrends">
+                      <p><b>Duration:</b> 6 months</p>
+                      <p><b>Methods:</b> Interviews, Card Sort, Usability Testing, Wireframes, Prototyping, IOS/Android App Development</p>
+                      <p><b>Tools:</b> Optimal Workshop, Figma, InVision, Adobe Photoshop, Firebase, Apple Developer, Thunkable, VS Code</p>
+                      <p>For the UX|UI design, I sketched the prototype on Figma. The icons and typography were designed in Photoshop. 
+                          For app development, I developed the algorithm on Thunkable. The back-end database is built on Google Firebase.</p>
+                      <i class="fa fa-apple" style="font-size:20px;"></i><a href="https://apps.apple.com/us/app/myvrends/id1478304003">
+                        IOS Download</a><br>
+                      <i class="fa fa-android" style="font-size:20px;"></i><a href="https://play.google.com/store/apps/details?id=com.gmail.myvrends&hl=en_US&gl=US">
+                        Android Download</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="features-row section-bg" id="fourthcase">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <img class="advanced-feature-img-right wow fadeInRight" src="./img/brands/logo6.png" alt="upper hudson" style="width: 350px; height:auto;">
+                  <div class="wow fadeInLeft">
+                    <h2>Upper Hudson Wine Trail Website Redesign</h2>
+                    <h3>An amazing New England getaway place for family gathering, team building and wine tasting in the post-pandemic.</h3>
+                    <p>UHWT is a winery business whose current website is with incomplete context and outdated layout. 
+                        My goal was to build up a responsive business website with advanced usability that provides
+                        better user experience with interaction designs, improves brand awareness by
+                        providing a new romantic lifestyle, and attracts more customers to come visit the wine trail.</p>
+                        <img class="advanced-feature-img-left wow fadeInRight" src="./img/blog/8.png" alt="upper hudson">
+                    <p><b>Duration:</b> 3 months</p>
+                    <p><b>Methods:</b> Brand Analysis, Competative Analysis, User Personas, Wireframes, Prototyping</p>
+                    <p><b>Tools:</b> Google Analytics, Figma, InVision, Slack, WordPress</p>
+                    <a href="https://uhwt.wordpress.com/">WordPress Mockup</a>                       
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+          <div class="features-row section-bg" id="fifthcase">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <img class="advanced-feature-img-left wow fadeInRight" src="./img/brands/logo4.png" alt="redwood" style="width: 350px; height:auto;">
+                  <div class="wow fadeInLeft">
+                    <h2>RedWood EDA Website Redesign</h2>
+                    <h3>A silicon chip maker startup business that prvides techniques and turotials for revolutionizing the silicon industry 
+                        with "transaction-level design" capabilities for ASIC FPGA and cloud FPGA design.</h3>
+                    <p>It has an existing website with domain. However, it isn't dynamic and eye-catching.<br>
+                        Based on several rounds of interviews with the sponsor, I figured out existing problems and challenges, 
+                        and the to-do-list for the upgrade of the website. I mocked up the wireframe on Adobe XD. 
+                        I also designed the logo and prototype for the new website. For the next step, 
+                        I drafted the conceptual map and built the website on Wix. I kept the core products and services sections, 
+                        and I also add the education and contact sections to make the website more interactive with its users.</p><br>
+                        <img class="advanced-feature-img-right wow fadeInRight" src="./img/blog/7.png" alt="redwood">
+                    <p><b>Duration:</b> 2 months</p>
+                    <p><b>Methods:</b> Interviews, Wireframe, Prototyping</p>
+                    <p><b>Tools:</b> Adobe Photoshop, XD, Illustrator, Wix</p>
+                    <a href="https://www.redwoodeda.com/">Visit Site</a> 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="features-row section-bg" id="sixthcase">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <img class="advanced-feature-img-right wow fadeInRight" src="./img/brands/logo5.png" alt="cafe" style="width: 200px; height:auto;">
+                  <div class="wow fadeInLeft">
+                    <h2>Coastal Cafe</h2>
+                    <h3>A business transition proposal for the local small physical store to run online business during the pandemic.</h3>
+                    <p>In this project, I designed and developed a responsive website for Coastal Cafe.
+                        The overall color palette is coastal style. The wireframes were scratched on XD. I designed the logo and banner on Photoshop. 
+                        Part of the images were taken by me. The menus were designed on Canva. All the codes were created from scratch on Visual Studio Code. 
+                        I used phpMyAdmin to manage the database.</p><br>
+                        <img class="advanced-feature-img-center wow fadeInRight" src="./img/blog/5.png" alt="cafe">
+                    <p><b>Duration:</b> 1 months</p>
+                    <p><b>Methods:</b> Market Analysis, Competitive Research, Wireframe, Prototyping</p>
+                    <p><b>Tools:</b> Google Analytics, Adobe Photoshop, XD, Canva, VS Code, MySQL</p>
+                    <a href="#">
+                      View Site</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="features-row section-bg" id="seventhcase">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <img class="advanced-feature-img-right wow fadeInRight" src="./img/brands/logo8.png" alt="vloop">
+                  <div class="wow fadeInLeft">
+                    <h2>V-loop Video Sharing App Mockup</h2>
+                    <h3>A web-based video sharing app that allows users to record individual video and get stitched together as a group video for shariing with friends.</h3>
+                    <p>I did the competative research and mocked up the prototypes in Figma based on several rounds of brainstorming and interviews with the spnosor and end users. 
+                      I also commpleted writing the codes for front-end, including the back-end web server and database parts. Next step, I'll work with the back-end developer 
+                      to apply the video API to it.</p><br>
+                        <img class="advanced-feature-img-center wow fadeInRight" src="./img/blog/9.png" alt="vloop">
+                    <p><b>Duration:</b> 1 month</p>
+                    <p><b>Methods:</b> Competative Research, Interviews, Usability Tests, Mockup, Web Development, Cloud</p>
+                    <p><b>Tools:</b> Adobe Illustrator, Figma, VS Code, MySQL, AWS</p>
+                    <a href="https://www.figma.com/proto/zI3IarwQgj0ObndkP1lfJT/Video-App-Prototype?node-id=5%3A2&scaling=scale-down">
+                      View Figma Prototype</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="features-row section-bg" id="eighthcase">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <img class="advanced-feature-img-left wow fadeInRight" src="./img/brands/logo3.png" alt="villa" style="width: 200px; height:auto;">
+                  <div class="wow fadeInLeft">
+                    <h2>Caribbean Beach Villa Website Design & Development</h2>
+                    <h3>A local hotel website that provides a great getaway place when post-pandemic. It provides online room reservation and catering order services.</h3>
+                    <p>I mocked up the website from scratch during the pandemic, aiming to provide some ideas for local small business to swtich from traditonal 
+                      brick-and-mortar mode to e-commerce mode.</p><br>
+                        <img class="advanced-feature-img-left wow fadeInRight" src="./img/blog/6.png" alt="villa">
+                    <p><b>Duration:</b> 2 months</p>
+                    <p><b>Methods:</b> Competative Analysis, Card Sorting, Wireframes, Prototyping, Web Development</p>
+                    <p><b>Tools:</b> Adobe XD, Optimal Workshop, UserTesting, VS Code, phpMyAdmin, MySQL</p>
+                    <p>By the end of the project, I have collected insights and feedbacks from different groups and turned all findings 
+                        into the prototype that meets WTC Atlanta's design guidelines. and got their recognition for the work.</p>
+                    <a href="#">
+                      View Site</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </section><!-- End Advanced Featuress Section -->
+
+    <!--  ======================= Footer Area ================================ -->
+
+    <footer class="footer-area">
+        <div id="fourthsection">
+            <div class="container">
+                <div class="">
+                    <div class="site-logo text-center py-4">
+                        <a href="#"><img src="./img/logo.png" alt="logo" style="width: 150px; height: auto;"></a>
+                    </div>
+                    <div class="social text-center">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="copyrights text-center">
+                        <p class="para">
+                            Copyright ©2021 All rights reserved |
+                            <a href="#"><span style="color: navy;">Kiki Xia</span></a>
+                        <p><a href="mailto:summerstudio18@gmail.com" style="color: navy;">summerstudio18@gmail.com</a>
+                        </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--  ======================= End of Footer Area ================================ -->
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
+
+</body>
+</html>
