@@ -12,12 +12,13 @@ body {
 
 /* Go to top button */
 #myBtn {
+
     display: none;
     position: fixed;
     bottom: 18px;
     right: 25px;
     z-index: 99;
-    font-size: 20px;
+    font-size: 16px;
     border: none;
     outline: none;
     background-color: #1dc8cd;
@@ -47,7 +48,7 @@ body {
 }
 
 .header_area .main-menu .nav-item .nav-link{
-    font: normal 500 15px/2px var(--Balsamiq);
+    font: normal 500 15px/2px var(--roboto);
     text-transform: capitalize;
     padding: 1.7rem;
     color: var(--title-color);
@@ -116,7 +117,7 @@ body {
 
 .site-main .about-area .about-title h2 > span{
     display: block;
-    font: normal bold 49px/ 60px var(--Balsamiq);
+    font: normal bold 49px/ 60px var(--roboto);
     letter-spacing: 21px;
 }
 
@@ -188,13 +189,13 @@ body {
 }
 
 .site-main .brand-area .experience-area .years-area .years{
-    font: normal bold 84px/40px var(--Balsamiq);
+    font: normal bold 84px/40px var(--roboto);
     color: navy;
     z-index: 2;
 }
 
 .site-main .brand-area .experience-area .years-area h2 > span{
-    font: normal 600 22px/30px var(--Balsamiq);
+    font: normal 600 22px/30px var(--roboto);
 }
 
 .site-main .brand-area .experience-area .call-area{
@@ -243,7 +244,7 @@ body {
 .site-main .project-area .button-group button{
     background: transparent;
     border: none;
-    font: normal 500 16px/130px var(--Balsamiq);
+    font: normal 500 16px/130px var(--roboto);
     text-transform: uppercase;
 }
 
@@ -261,7 +262,7 @@ body {
 
 
 .site-main .project-area .grid .our-project > .title h4{
-    font: normal 700 25px/12px var(--Balsamiq);
+    font: normal 700 25px/12px var(--roboto);
 }
 
 .site-main .project-area .grid .our-project .img a:hover img{
@@ -284,7 +285,7 @@ body {
   .single-blog .blog-content {
     padding-top: 10px; }
     .single-blog .blog-content .blog-title a {
-     font-family: var(--Balsamiq);
+     font-family: var(--roboto);
       font-size: 24px;
       font-weight: 600;
       color: #222;
@@ -309,7 +310,7 @@ body {
       .single-blog .blog-content .blog-author .author-content {
         padding-left: 20px; }
         .single-blog .blog-content .blog-author .author-content .sub-title {
-          font-family: var(--Balsamiq);
+          font-family: var();
           font-size: 14px;
           color: #053781;
           font-weight: 400; }
@@ -321,7 +322,7 @@ body {
     margin: 50px auto;
 }
 #blogbtn {
-    font-family: var(--Balsamiq);
+    font-family: var(--roboto);
     font-size: 1rem;
     color: rgb(0, 32, 119);
     border-style: none;
@@ -345,7 +346,7 @@ body {
 .blog-section-title{
     padding: 1em 0;
     text-align: center;
-    font: bold 2rem var(--Balsamiq);
+    font: bold 2rem var(--roboto);
     text-transform: uppercase;
 }
 
@@ -380,7 +381,7 @@ body {
 }
 
 .site-main .about-area .client .about-client h4{
-    font: normal 500 21px/ 20px var(--Balsamiq);
+    font: normal 500 21px/ 20px var(--roboto);
 }
 
 .site-main .about-area .client .about-client p{
@@ -412,7 +413,7 @@ footer.footer-area{
 }
 
 footer.footer-area .social h5{
-    font: normal 500 23px/ 30px var(--Balsamiq);
+    font: normal 500 23px/ 30px var(--roboto);
 }
 
 footer.footer-area .social a > i{
